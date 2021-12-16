@@ -1,6 +1,7 @@
 import React from 'react';
 import Todo from './Todo';
-import {Paper, List} from "@material-ui/core";
+import AddTodo from './AddTodo';
+import {Paper, List, Container} from "@material-ui/core";
 import './App.css';
 
 class App extends React.Component{
@@ -14,7 +15,14 @@ class App extends React.Component{
       ],
     };
   }
-
+  add = (item) => {
+    const thisItems = this.state.items;
+    item.id = "ID-" + thisItems.length;
+    item.done = false;
+    thisItems.push(item);
+    this.setState({items:thisItems});
+    console.log("items : ",this.state.items);
+  }
   render(){
     //Use map function in JS to create component with the items list
     var todoItems = this.state.items.length > 0 && (
@@ -28,7 +36,14 @@ class App extends React.Component{
     );
     
     //return the generated component
-    return <div className="App">{todoItems}</div>
+    return (
+      <div className="App">
+        <Container maxwidth="md">
+            <AddTodo add={this.add}/>
+            <div className="TodoList">{todoItems}</div>
+        </Container>
+      </div>
+    );
   }
 }
 
