@@ -5,7 +5,7 @@ import {DeleteOutlined} from "@material-ui/icons";
 class Todo extends React.Component{
     constructor(props){
         super(props);
-        this.state = {item:props.item};
+        this.state = {item:props.item, readOnly:true};
         this.delete = props.delete; //Bring the delete function from the higher component, App.js.
     }
 
@@ -13,6 +13,29 @@ class Todo extends React.Component{
         this.delete(this.state.item);
     }
 
+    enterKeyEventHandler = (e) =>{
+        if(e.key === 'Enter'){
+            this.setState({readOnly: true});
+            console.log("ReadOnly?", this.state.readOnly)
+        }
+    };
+    editEventHandler = (e) =>{
+        const thisItem = this.state.item;
+        thisItem.title = e.target.value;
+        this.setState({item:thisItem});
+    }
+    checkboxEventHandler = (e) =>{
+        const thisItem = this.state.item;
+        thisItem.done = !thisItem.done;
+        this.setState({item:thisItem});
+    }
+
+    offReadOnlyMode =() =>{
+        console.log("Event!", this.state.raedOnly)
+        this.setState({readOnly:false}, () =>{
+            console.log("ReadOnly?", this.state.readOnly)
+        });
+    }
     render(){
         const item = this.state.item;
         return (
@@ -20,7 +43,10 @@ class Todo extends React.Component{
                 <Checkbox checked ={item.done}/>
                 <ListItemText>
                     <InputBase
-                        inputProps={{"aria-label":"naked"}}
+                        inputProps={{"aria-label":"naked", readOnly:this.state.readOnly}}
+                        onClick = {this.offReadOnlyMode}
+                        onKeyPress={this.enterKeyEventHandler}
+                        onChange={this.editEventHandler}
                         type="text"
                         id={item.id} 
                         name={item.id} 
