@@ -3,6 +3,7 @@ import Todo from './Todo';
 import AddTodo from './AddTodo';
 import {Paper, List, Container} from "@material-ui/core";
 import './App.css';
+import {call} from './service/ApiService'
 
 class App extends React.Component{
   constructor(props){
@@ -15,46 +16,27 @@ class App extends React.Component{
       ],
     };
   }
+
   componentDidMount(){
-    const requestOptions = {
-      method:"GET",
-      Headers:{"Content-Type":"application/json"},
-    };
-
-    fetch("http://localhost:8080/todo", requestOptions)
-      .then((response) => response.json())
-      .then(
-        (response) =>{
-          this.setState({
-            items:response.data,
-          });
-        },
-        (error) =>{
-          this.setState({
-            error,
-          });
-        }
-      );
+    call("/todo","GET",null)
+    .then((res) =>
+      this.setState({items:res.data})
+    );
   }
+
   add = (item) => {
-    const thisItems = this.state.items;
-    item.id = "ID-" + thisItems.length;
-    item.done = false;
-    thisItems.push(item);
-    this.setState({items:thisItems});
-    console.log("items : ",this.state.items);
+    call("/todo","POST",item)
+    .then((res)=>
+      this.setState({items:res.data})
+    );
   }
 
-  delete = (item) =>{
-    const thisItems= this.state.items;
-      console.log("Before Update Items :" , this.state.items)
-    //use filter function to get rid of the input item
-    //copy item when its id is not same as the input item's 
-    const newItems = thisItems.filter(e=>e.id !== item.id); 
-    this.setState({items:newItems}, ()=> {
-      console.log("Update Items : ", this.state.items) //For debuging
-    });
-  }
+  delete = (item) => {
+    call("/todo","DELETE", item)
+    .then((res)=>
+      this.setState({items:res.data})
+    );
+  };
 
   render(){
     //Use map function in JS to create component with the items list
