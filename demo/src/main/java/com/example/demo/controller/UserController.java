@@ -1,6 +1,7 @@
 package com.example.demo.controller;
 
 import com.example.demo.dto.ResponseDTO;
+import com.example.demo.security.TokenProvider;
 import com.example.demo.dto.UserDTO;
 import com.example.demo.model.UserEntity;
 import com.example.demo.service.UserService;
@@ -16,11 +17,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/auth")
 
-
 public class UserController {
+
 	@Autowired
-	
 	private UserService userService;
+
+	@Autowired
+	private TokenProvider tokenProvider;
 
 	
 	@PostMapping("/signup")
@@ -40,6 +43,7 @@ public class UserController {
 					.username(registeredUser.getUsername())
 					.build();
 			return ResponseEntity.ok().body(responseUserDTO);
+
 		}catch(Exception e) {
 			
 			ResponseDTO responseDTO = ResponseDTO.builder().error(e.getMessage()).build();
@@ -54,14 +58,14 @@ public class UserController {
 	public ResponseEntity<?> authenticate(@RequestBody UserDTO userDTO) {
 		UserEntity user = userService.getByCredentials(
 						userDTO.getEmail(),
-						userDTO.getPassword()
-						);
+						userDTO.getPassword());
 
 		if(user != null) {
-			// 토큰 생성
+			final String token = tokenProvider.create(user); //create token
 			final UserDTO responseUserDTO = UserDTO.builder()
 							.email(user.getUsername())
 							.id(user.getId())
+							.token(token)
 							.build();
 			return ResponseEntity.ok().body(responseUserDTO);
 		} else {
