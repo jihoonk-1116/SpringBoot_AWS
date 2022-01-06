@@ -38,10 +38,12 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
                 AbstractAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userId,
                         null, AuthorityUtils.NO_AUTHORITIES
-                );
+                ); //AuthenticationPrincipal -> userId
+
                 authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
                 SecurityContext securityContext = SecurityContextHolder.createEmptyContext();
                 securityContext.setAuthentication(authentication);
+                //Register authentication object, which has authentication principal as userId
                 SecurityContextHolder.setContext(securityContext);
             }
         }catch (Exception ex){
