@@ -1,26 +1,34 @@
 import React from 'react';
 import Todo from './Todo';
 import AddTodo from './AddTodo';
-import {Paper, List, Container} from "@material-ui/core";
+import {
+        Paper,
+        List, 
+        Container, 
+        Grid, 
+        Button, 
+        AppBar, 
+        Toolbar, 
+        Typography
+      } from "@material-ui/core";
 import './App.css';
-import {call} from './service/ApiService'
+import {call, signout} from './service/ApiService'
+
 
 class App extends React.Component{
   constructor(props){
     super(props);
     //converted item -> items list
     this.state = {
-      items:[
-        {id:"0", title:"Hello World 1", done : true},
-        {id:"1", title:"Hello World 2", done : false},
-      ],
+      items:[],
+      loading: true, //loading variable in constructor
     };
   }
 
   componentDidMount(){
     call("/todo","GET",null)
     .then((res) =>
-      this.setState({items:res.data})
+      this.setState({items:res.data, loading:false}) //successful init -> set loading false
     );
   }
 
@@ -64,16 +72,47 @@ class App extends React.Component{
         </List>
       </Paper>
     );
-    
-    //return the generated component
-    return (
-      <div className="App">
-        <Container maxwidth="md">
-            <AddTodo add={this.add}/>
-            <div className="TodoList">{todoItems}</div>
+    //Nav bar
+    var navigationBar = (
+      <AppBar position="static">
+        <Toolbar>
+          <Grid justify="space-between" container>
+            <Grid item>
+              <Typography variant = "h6">
+                Today's Todo
+              </Typography>
+            </Grid>
+            <Grid>
+              <Button color="inherit" onClick={signout}>
+                Logout
+              </Button>
+            </Grid>
+          </Grid>
+        </Toolbar>
+      </AppBar>
+    );
+
+    var todoListPage = (
+      <div>
+        {navigationBar}
+        <Container maxWidth="md">
+          <AddTodo add = {this.add} />
+          <div className = "TodoList">{todoItems}</div>
         </Container>
       </div>
     );
+
+    var loadingPage = <h1>Loading...</h1>;
+
+    var content = loadingPage;
+
+    if (!this.state.loading){
+      content = todoListPage;
+    }
+
+    return <div className="App">{content}</div>
+    //return the generated component
+    
   }
 }
 

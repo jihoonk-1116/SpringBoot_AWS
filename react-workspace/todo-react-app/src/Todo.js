@@ -46,7 +46,10 @@ class Todo extends React.Component{
                 <Checkbox checked ={item.done} onClick={this.checkboxEventHandler}/>
                 <ListItemText>
                     <InputBase
-                        inputProps={{"aria-label":"naked", readOnly:this.state.readOnly}}
+                        inputProps={{
+                            "aria-label":"naked", 
+                            readOnly:this.state.readOnly,
+                        }}
                         onClick = {this.offReadOnlyMode}
                         onKeyPress={this.enterKeyEventHandler}
                         onChange={this.editEventHandler}
@@ -54,9 +57,8 @@ class Todo extends React.Component{
                         id={item.id} 
                         name={item.id} 
                         value={item.title}
-                        multiline={true}
                         fullWidth={true}
-                        />
+                    />
                 </ListItemText>
 
                 <ListItemSecondaryAction>
