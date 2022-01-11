@@ -56,7 +56,7 @@
 
 
   
-  #### Result <br>
+  #### Result : Successfully creating .elasticbeanstalk/config.yml <br>
   ![Screen Shot 2022-01-11 at 12 07 35 AM](https://user-images.githubusercontent.com/76544061/148884704-20d6a106-2b55-4770-bf1a-ba0a1862a137.png)
 
   ### Creation aplication-dev.yaml and application-prod.yaml
