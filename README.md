@@ -2,10 +2,12 @@
 
 # Backend
   ## Covered Skill set
+  
     * Spring Boot
     * Lombok
     * Spring Security
     * JWT
+    
 # Frontend
   ## Covered Skill set
     * React 
