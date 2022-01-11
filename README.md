@@ -74,7 +74,17 @@
   * url means database's address
   
   ### HealthCheck for Loadbalancer <br>
+  * GetMapping at "/" : Loadbalancer uses HealthCheck API to check the app's status. 
   ![Screen Shot 2022-01-11 at 2 33 06 AM](https://user-images.githubusercontent.com/76544061/148899928-ad36c10f-f8b2-4ad5-8a69-18f01661b475.png)
+
+ ### Create jar file for the application to be upload <br>
+ ![Screen Shot 2022-01-11 at 2 36 54 AM](https://user-images.githubusercontent.com/76544061/148900530-9d5e4694-40a5-4669-99ea-2ac2b1f59796.png)
+ 
+ Then, add deploy parameter in the config.yml<br>
+ ![Screen Shot 2022-01-11 at 2 39 57 AM](https://user-images.githubusercontent.com/76544061/148900810-96e4dba3-58a7-45e8-aa3c-19e5788679a3.png)
+
+ 
+ 
 
 
   
