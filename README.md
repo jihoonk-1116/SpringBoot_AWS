@@ -63,5 +63,17 @@
   * To manage application properties for developing version and production <br>
 ![Screen Shot 2022-01-11 at 12 25 30 AM](https://user-images.githubusercontent.com/76544061/148886190-d47d4c3b-2440-4b97-8997-8cbd3e841d1d.png)
  <application-prod.yaml>
+ 
+  * Use port 5000
+  * Use MySQL as DB
+  * Show SQL log that is conducted by JPA
+  * MySQL8Dialect : It's a library that maps Java type's data to database type's data<br>
+  ex) Java's String -> DB's Varchar, It helps to handle @Id & @GeneratedValue <br>
+  * ddl stands for Data Definition Language, such as Drop, Create, Alter
+  * ddl-auto parameter asks how an user manages table of database when an app is initiated. (create,update,validate etc..)
+  * url means database's address
   
+  ### HealthCheck for Loadbalancer
+  ![Screen Shot 2022-01-11 at 12 25 30 AM](https://user-images.githubusercontent.com/76544061/148899741-95e1456f-9e7b-41e0-a0fc-fd7e90f0b08a.png)
+
   
