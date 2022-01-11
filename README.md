@@ -10,9 +10,12 @@
     
 # Frontend
   Covered Skills set
+  
     * React 
+    
 # AWS Integration
   Covered Skills set
+  
     * Elastic Bean Stock
     * Route 53
     * Load Balancer
