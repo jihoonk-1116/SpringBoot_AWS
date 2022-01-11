@@ -85,8 +85,8 @@
 
  ### eb create
  * --database : Database parameter to include new RDS in EBS
- * --elb-type : Elastic Load Balancer parameter to use LB and Auto Scaling Group
- * --instance-type : Instance type for the app <br>
+ * --elb-type <typename> : Elastic Load Balancer parameter to use LB and Auto Scaling Group
+ * --instance-type <typename> : Instance type for the app <br>
  
  ![Screen Shot 2022-01-11 at 3 23 20 AM](https://user-images.githubusercontent.com/76544061/148906551-36f120eb-8186-4858-99d2-f9158eea79ad.png) <br>
  ![Screen Shot 2022-01-11 at 3 17 44 AM](https://user-images.githubusercontent.com/76544061/148906597-6e4fe932-095d-42eb-be6c-676824b822fb.png)
