@@ -73,7 +73,8 @@
   * ddl-auto parameter asks how an user manages table of database when an app is initiated. (create,update,validate etc..)
   * url means database's address
   
-  ### HealthCheck for Loadbalancer
-  ![Screen Shot 2022-01-11 at 12 25 30 AM](https://user-images.githubusercontent.com/76544061/148899741-95e1456f-9e7b-41e0-a0fc-fd7e90f0b08a.png)
+  ### HealthCheck for Loadbalancer <br>
+  ![Screen Shot 2022-01-11 at 2 33 06 AM](https://user-images.githubusercontent.com/76544061/148899928-ad36c10f-f8b2-4ad5-8a69-18f01661b475.png)
+
 
   
