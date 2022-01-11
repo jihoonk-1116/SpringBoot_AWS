@@ -1,7 +1,7 @@
 # SpringBoot_AWS
 
 # Backend
-  ## Covered Skill set
+  Covered Skills set
   
     * Spring Boot
     * Lombok
@@ -9,10 +9,10 @@
     * JWT
     
 # Frontend
-  ## Covered Skill set
+  Covered Skills set
     * React 
 # AWS Integration
-  ## Covered Skill set
+  Covered Skills set
     * Elastic Bean Stock
     * Route 53
     * Load Balancer
