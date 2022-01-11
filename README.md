@@ -1,4 +1,4 @@
-# SpringBoot_AWS
+# SpringBoot & React & AWS
 
 # Backend
   Covered Skills set
@@ -27,8 +27,9 @@
   * HTTPS communication
   
   ## Step 1
-  ### Installation of AWS CLI
-  https://awscli.amazonaws.com/AWSCLIV2.msi <br>
+  ### Install of AWS CLI to access AWS resources with programatic way.
+  https://awscli.amazonaws.com/AWSCLIV2.msi for Windows<br>
+  https://awscli.amazonaws.com/AWSCLIV2.pkg for MAC <br>
   ![image](https://user-images.githubusercontent.com/76544061/148880697-45b554bf-5ea3-4cb1-8747-15aa8edec2ed.png)
 
   ### Setting IAM
@@ -37,4 +38,11 @@
   
   ![image](https://user-images.githubusercontent.com/76544061/148880944-0601718b-60e8-4ee0-9bf1-a0a71619872a.png)
   
+  ### Install EB CLI
+  The APP will be deployed by EBS <br>
+  ![Screen Shot 2022-01-10 at 11 42 36 PM](https://user-images.githubusercontent.com/76544061/148882600-1b9d2a47-1483-4968-941a-303d123feb3b.png) <br>
+  ![Screen Shot 2022-01-10 at 11 42 43 PM](https://user-images.githubusercontent.com/76544061/148882620-d244902e-87e0-461d-b49f-19a11d222b24.png)
+
+  
+
   
