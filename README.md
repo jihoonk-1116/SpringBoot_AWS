@@ -46,7 +46,9 @@
   #### Utilizing Elastic Bean Stock 
   <strong> Step 1 - eb init </strong> <br>
   * Initializing Elastic Bean Stock applcation in Local machine <br>
-  * Application Platform : Server, JVM (Middleware), Linux
+  * Application Platform : JVM (Middleware), Linux 
+  
+  <br>
   Backend Initializing <br>
   ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148883994-fc9d0721-4f0e-4d99-be83-0a4f3ee5d81d.png)<br>
   ![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148884754-6003fb82-ac1a-40f9-83f8-14be81a776de.png)
@@ -55,8 +57,9 @@
   #### Result <br>
   ![Screen Shot 2022-01-11 at 12 07 35 AM](https://user-images.githubusercontent.com/76544061/148884704-20d6a106-2b55-4770-bf1a-ba0a1862a137.png)
 
-  
-  
+  ### Creation aplication-dev.yaml and application-prod.yaml
+  * To manage application properties for developing version and production <br>
+![Screen Shot 2022-01-11 at 12 25 30 AM](https://user-images.githubusercontent.com/76544061/148886190-d47d4c3b-2440-4b97-8997-8cbd3e841d1d.png)
 
   
   
