@@ -50,8 +50,10 @@
   
   <br>
   Backend Initializing <br>
-  ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148883994-fc9d0721-4f0e-4d99-be83-0a4f3ee5d81d.png)<br>
-  ![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148884754-6003fb82-ac1a-40f9-83f8-14be81a776de.png)
+  
+  ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148886255-3ed3c364-6764-40f9-937c-b4cff0efd76b.png) <br>
+![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148886270-bf8deac2-56d3-4e02-ac44-f62f33409de1.png) <br>
+
 
   
   #### Result <br>
