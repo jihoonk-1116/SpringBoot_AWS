@@ -43,6 +43,20 @@
   ![Screen Shot 2022-01-10 at 11 42 36 PM](https://user-images.githubusercontent.com/76544061/148882600-1b9d2a47-1483-4968-941a-303d123feb3b.png) <br>
   ![Screen Shot 2022-01-10 at 11 42 43 PM](https://user-images.githubusercontent.com/76544061/148882620-d244902e-87e0-461d-b49f-19a11d222b24.png)
 
+  #### Utilizing Elastic Bean Stock 
+  <strong> Step 1 - eb init </strong> <br>
+  * Initializing Elastic Bean Stock applcation in Local machine <br>
+  * Application Platform : Server, JVM (Middleware), Linux
+  Backend Initializing <br>
+  ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148883994-fc9d0721-4f0e-4d99-be83-0a4f3ee5d81d.png)<br>
+  ![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148884754-6003fb82-ac1a-40f9-83f8-14be81a776de.png)
+
+  
+  #### Result <br>
+  ![Screen Shot 2022-01-11 at 12 07 35 AM](https://user-images.githubusercontent.com/76544061/148884704-20d6a106-2b55-4770-bf1a-ba0a1862a137.png)
+
+  
   
 
+  
   
