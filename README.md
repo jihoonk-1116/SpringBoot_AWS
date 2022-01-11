@@ -3,28 +3,28 @@
 # Backend
   Covered Skills set
   
-    * Spring Boot
-    * Lombok
-    * Spring Security
-    * JWT
+  * Spring Boot
+  * Lombok
+  * Spring Security
+  * JWT
     
 # Frontend
   Covered Skills set
   
-    * React 
+  * React 
     
 # AWS Integration
   Covered Skills set
   
-    * Elastic Bean Stock
-    * Route 53
-    * Load Balancer
-    * Virtual Private Cloud(VPC)
-    * MySQL
-    * Auto Scaling Group(ACG)
-    * IAM
-    * Elastic Cloud Computing(EC2)
-    * HTTPS communication
+  * Elastic Bean Stock
+  * Route 53
+  * Load Balancer
+  * Virtual Private Cloud(VPC)
+  * MySQL
+  * Auto Scaling Group(ACG)
+  * IAM
+  * Elastic Cloud Computing(EC2)
+  * HTTPS communication
   
   ### Installation of AWS CLI
   https://awscli.amazonaws.com/AWSCLIV2.msi <br>
