@@ -83,8 +83,15 @@
  Then, add deploy parameter in the config.yml<br>
  ![Screen Shot 2022-01-11 at 2 39 57 AM](https://user-images.githubusercontent.com/76544061/148900810-96e4dba3-58a7-45e8-aa3c-19e5788679a3.png)
 
+ ### eb create
+ * --database : Database parameter to include new RDS in EBS
+ * --elb-type : Elastic Load Balancer parameter to use LB and Auto Scaling Group
+ * --instance-type : Instance type for the app <br>
  
- 
+ ![Screen Shot 2022-01-11 at 3 23 20 AM](https://user-images.githubusercontent.com/76544061/148906551-36f120eb-8186-4858-99d2-f9158eea79ad.png) <br>
+ ![Screen Shot 2022-01-11 at 3 17 44 AM](https://user-images.githubusercontent.com/76544061/148906597-6e4fe932-095d-42eb-be6c-676824b822fb.png)
+
+
 
 
   
