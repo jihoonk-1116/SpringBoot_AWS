@@ -95,11 +95,14 @@
  ### eb setenv
   * Command : eb setenv SPRING_PROFILES_ACTIVE=prod
   * Set environment variable using spring app profile
-  * Terminal access
+  * Terminal access <br>
 ![Screen Shot 2022-01-11 at 7 02 38 PM](https://user-images.githubusercontent.com/76544061/149051496-beca4625-266c-4b86-9904-5c92145ba788.png) <br>
   * Console access
   <img width="680" alt="Screen Shot 2022-01-11 at 9 12 23 PM" src="https://user-images.githubusercontent.com/76544061/149051587-9efd5bb2-6a06-428e-ad25-ece5ed293b6e.png">
 
+ #### Result : Successfully deployed backend application
+  
+  <img width="707" alt="Screen Shot 2022-01-11 at 9 11 05 PM" src="https://user-images.githubusercontent.com/76544061/149051769-6c4d6297-1e31-499e-8d44-c87e9e10620c.png">
 
 
 
