@@ -16,7 +16,7 @@
 # AWS Integration
   Covered Skills set
   
-  * Elastic Bean Stock
+  * Elastic Bean Stack
   * Route 53
   * Load Balancer
   * Virtual Private Cloud(VPC)
@@ -26,7 +26,7 @@
   * Elastic Cloud Computing(EC2)
   * HTTPS communication
   
-  ## Step 1
+  ## Step 1 : Deploy backend application EBS
   ### Install of AWS CLI to access AWS resources with programatic way.
   https://awscli.amazonaws.com/AWSCLIV2.msi for Windows<br>
   https://awscli.amazonaws.com/AWSCLIV2.pkg for MAC <br>
