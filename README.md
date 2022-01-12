@@ -43,10 +43,13 @@
   ![Screen Shot 2022-01-10 at 11 42 36 PM](https://user-images.githubusercontent.com/76544061/148882600-1b9d2a47-1483-4968-941a-303d123feb3b.png) <br>
   ![Screen Shot 2022-01-10 at 11 42 43 PM](https://user-images.githubusercontent.com/76544061/148882620-d244902e-87e0-461d-b49f-19a11d222b24.png)
 
-  #### Utilizing Elastic Bean Stock 
-  <strong> Step 1 - eb init </strong> <br>
-  * Initializing Elastic Bean Stock applcation in Local machine <br>
+  #### Deployment of backend application using Elastic Bean Stack 
+  
+  * Initialize Elastic Bean Stack application in Local machine <br>
   * Application Platform : JVM (Middleware), Linux 
+  * Build jar file to be upload to S3
+  * Use 'eb create' command to create AWS resources automatically that are composed of backend app. 
+  * Set up Environment properties as prod and dev
   
   <br>
   Backend Initializing <br>
@@ -56,7 +59,7 @@
 
 
   
-  #### Result : Successfully creating .elasticbeanstalk/config.yml <br>
+  #### Result : Successfully created .elasticbeanstalk/config.yml <br>
   ![Screen Shot 2022-01-11 at 12 07 35 AM](https://user-images.githubusercontent.com/76544061/148884704-20d6a106-2b55-4770-bf1a-ba0a1862a137.png)
 
   ### Creation aplication-dev.yaml and application-prod.yaml
