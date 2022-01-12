@@ -52,7 +52,7 @@
   * Set up Environment properties as prod and dev and deploy
   
   <br>
-  Initializing <br>
+  Initializing EBS<br>
   
   ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148886255-3ed3c364-6764-40f9-937c-b4cff0efd76b.png) <br>
 ![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148886270-bf8deac2-56d3-4e02-ac44-f62f33409de1.png) <br>
@@ -80,7 +80,7 @@
   * GetMapping at "/" : Loadbalancer uses HealthCheck API to check the app's status. 
   ![Screen Shot 2022-01-11 at 2 33 06 AM](https://user-images.githubusercontent.com/76544061/148899928-ad36c10f-f8b2-4ad5-8a69-18f01661b475.png)
 
- ### Create jar file for the application to be upload <br>
+ ### Create jar file of the application to be upload <br>
  ![Screen Shot 2022-01-11 at 2 36 54 AM](https://user-images.githubusercontent.com/76544061/148900530-9d5e4694-40a5-4669-99ea-2ac2b1f59796.png)
  
  Then, add deploy parameter in the config.yml<br>
