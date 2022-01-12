@@ -45,14 +45,14 @@
 
   #### Deployment of backend application using Elastic Bean Stack 
   
-  * Initialize Elastic Bean Stack application in Local machine <br>
+  * Initialize Elastic Bean Stack in Local machine <br>
   * Application Platform : JVM (Middleware), Linux 
   * Build jar file to be upload to S3
   * Use 'eb create' command to create AWS resources automatically that are composed of backend app. 
-  * Set up Environment properties as prod and dev
+  * Set up Environment properties as prod and dev and deploy
   
   <br>
-  Backend Initializing <br>
+  Initializing <br>
   
   ![Screen Shot 2022-01-10 at 11 59 23 PM](https://user-images.githubusercontent.com/76544061/148886255-3ed3c364-6764-40f9-937c-b4cff0efd76b.png) <br>
 ![Screen Shot 2022-01-10 at 11 58 37 PM](https://user-images.githubusercontent.com/76544061/148886270-bf8deac2-56d3-4e02-ac44-f62f33409de1.png) <br>
