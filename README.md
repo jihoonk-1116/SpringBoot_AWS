@@ -84,12 +84,21 @@
  ![Screen Shot 2022-01-11 at 2 39 57 AM](https://user-images.githubusercontent.com/76544061/148900810-96e4dba3-58a7-45e8-aa3c-19e5788679a3.png)
 
  ### eb create
+ * Command : eb create --database --elb-type application --instance-type t2.micro
  * --database : Database parameter to include new RDS in EBS
  * --elb-type <typename> : Elastic Load Balancer parameter to use LB and Auto Scaling Group
  * --instance-type <typename> : Instance type for the app <br>
  
  ![Screen Shot 2022-01-11 at 3 23 20 AM](https://user-images.githubusercontent.com/76544061/148906551-36f120eb-8186-4858-99d2-f9158eea79ad.png) <br>
  ![Screen Shot 2022-01-11 at 3 17 44 AM](https://user-images.githubusercontent.com/76544061/148906597-6e4fe932-095d-42eb-be6c-676824b822fb.png)
+
+ ### eb setenv
+  * Command : eb setenv SPRING_PROFILES_ACTIVE=prod
+  * Set environment variable using spring app profile
+  * Terminal access
+![Screen Shot 2022-01-11 at 7 02 38 PM](https://user-images.githubusercontent.com/76544061/149051496-beca4625-266c-4b86-9904-5c92145ba788.png) <br>
+  * Console access
+  <img width="680" alt="Screen Shot 2022-01-11 at 9 12 23 PM" src="https://user-images.githubusercontent.com/76544061/149051587-9efd5bb2-6a06-428e-ad25-ece5ed293b6e.png">
 
 
 
