@@ -26,7 +26,7 @@
   * Elastic Cloud Computing(EC2)
   * HTTPS communication
   
-  ## Step 1 : Deploy backend application EBS
+  ## Step 1 : Deploy backend application using EBS
   ### Install of AWS CLI to access AWS resources with programatic way.
   https://awscli.amazonaws.com/AWSCLIV2.msi for Windows<br>
   https://awscli.amazonaws.com/AWSCLIV2.pkg for MAC <br>
