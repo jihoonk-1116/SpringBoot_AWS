@@ -108,5 +108,7 @@
   <img width="707" alt="Screen Shot 2022-01-11 at 9 11 05 PM" src="https://user-images.githubusercontent.com/76544061/149051769-6c4d6297-1e31-499e-8d44-c87e9e10620c.png">
 
 
+ #### Test with Postman:
+  http://todoapp-backend-prod.us-west-2.elasticbeanstalk.com/
 
   
