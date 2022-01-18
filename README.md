@@ -1,6 +1,6 @@
 # SpringBoot & React & AWS
 
-<a href = http://todoapp-fronted-prod.us-west-2.elasticbeanstalk.com> ![Screen Shot 2022-01-17 at 9 49 54 PM](https://user-images.githubusercontent.com/76544061/149862381-4c529a38-61f2-4207-b3ce-467e8f33af40.png) <br> Live app </a>
+<a href =https://app.jihoonk1116-todoapp.link > ![Screen Shot 2022-01-17 at 9 49 54 PM](https://user-images.githubusercontent.com/76544061/149862381-4c529a38-61f2-4207-b3ce-467e8f33af40.png) <br> Live app </a>
 
 
 
