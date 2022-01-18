@@ -156,7 +156,19 @@
   ![image](https://user-images.githubusercontent.com/76544061/150026306-7097505b-4c0d-41b2-bb99-d90f218fbd54.png)
 
   ### Create Record
-  <strong> Frontend : app.jihoonk1116-todoapp.link / Backend: api.jihoonk1116-todoapp.link </strong>
+  <strong> Frontend : app.jihoonk1116-todoapp.link</strong> <br>
+  <strong>Backend: api.jihoonk1116-todoapp.link </strong> <br>
   ![image](https://user-images.githubusercontent.com/76544061/150026718-739900fa-91b8-4f81-8f8f-2b014585cb9c.png)
+  
+  ### Request HTTPS certificate using AWS Certificate Manager
+  ![image](https://user-images.githubusercontent.com/76544061/150027161-2ccfcc29-0fc4-4d86-bf02-0085b5163a99.png) <br>
+  ![image](https://user-images.githubusercontent.com/76544061/150027216-5421d855-e1f8-475a-be44-2f3ec6d49669.png)
+  
+  ### Add HTTPS Listener to Load balancers of frontend application and backend application 
+![image](https://user-images.githubusercontent.com/76544061/150027451-4e13c211-bda4-41ad-a5e9-0d66f3aa7baf.png)
+
+  ### Successfully done to set own domain and HTTPS protocols using AWS 
+  <a href = https://app.jihoonk1116-todoapp.link> https://app.jihoonk1116-todoapp.link <a>
+
 
 
