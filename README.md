@@ -125,11 +125,15 @@
   <img width="1181" alt="Screen Shot 2022-01-17 at 9 07 28 PM" src="https://user-images.githubusercontent.com/76544061/149858855-23e1c009-ed28-4d15-b3a6-4c6c22ec3750.png">
 
   ## Step 3 : Resolve Cross-origin problem
-  
+  ![Screen Shot 2022-01-17 at 9 15 27 PM](https://user-images.githubusercontent.com/76544061/149860078-7336acc6-9317-473c-8eb2-927439b66455.png)
+
   ### Add new frontend address to WebMvcConfig.java
   <img width="908" alt="Screen Shot 2022-01-17 at 9 20 15 PM" src="https://user-images.githubusercontent.com/76544061/149859936-2a790e48-c14e-4e37-81cc-c43bad07ad12.png">
 
   ### Re-build using gradlew
   <img width="574" alt="Screen Shot 2022-01-17 at 9 21 26 PM" src="https://user-images.githubusercontent.com/76544061/149860008-7efee7ce-f2a3-4687-87d8-243d4e29d308.png">
+
+  ### Re-deploy backend app with eb deploy
+  <img width="571" alt="Screen Shot 2022-01-17 at 9 25 11 PM" src="https://user-images.githubusercontent.com/76544061/149860161-925bfda6-da98-47b6-add9-5040bd4b3de4.png">
 
   
