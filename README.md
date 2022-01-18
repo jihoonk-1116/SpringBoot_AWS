@@ -112,5 +112,17 @@
   
   <img width="691" alt="Screen Shot 2022-01-16 at 9 41 30 PM" src="https://user-images.githubusercontent.com/76544061/149700098-c00efeaa-094c-4631-a222-3997eb54b296.png">
 
+## Step 2 : Deploy frontend application using EBS
+  Deploy using aws EBS console at this time. <br>
+  
+  #### Zip those files and directories
+  <img width="384" alt="Screen Shot 2022-01-17 at 9 10 01 PM" src="https://user-images.githubusercontent.com/76544061/149858696-b7073fa4-71e4-438f-9fc8-2d229600eb19.png">
 
+  #### Upload the Zip file to EBS via AWS console
+   <img width="595" alt="Screen Shot 2022-01-17 at 9 07 43 PM" src="https://user-images.githubusercontent.com/76544061/149858779-d2c7d461-356b-49e7-97e3-47d9234f69e9.png">
+
+  #### Deploy and check the app's status
+  <img width="1181" alt="Screen Shot 2022-01-17 at 9 07 28 PM" src="https://user-images.githubusercontent.com/76544061/149858855-23e1c009-ed28-4d15-b3a6-4c6c22ec3750.png">
+
+  
   
