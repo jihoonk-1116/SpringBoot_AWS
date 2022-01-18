@@ -165,7 +165,8 @@
   ![image](https://user-images.githubusercontent.com/76544061/150027216-5421d855-e1f8-475a-be44-2f3ec6d49669.png)
   
   ### Add HTTPS Listener to Load balancers of frontend application and backend application 
-![image](https://user-images.githubusercontent.com/76544061/150027451-4e13c211-bda4-41ad-a5e9-0d66f3aa7baf.png)
+![image](https://user-images.githubusercontent.com/76544061/150029618-fe042008-30d6-4f77-93a5-153b4f978003.png)
+
 
   ### Successfully done to set own domain and HTTPS protocols using AWS 
   <a href = https://app.jihoonk1116-todoapp.link> https://app.jihoonk1116-todoapp.link <a>
