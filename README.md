@@ -144,7 +144,16 @@
   ### Result: Success to login 
   ![Screen Shot 2022-01-17 at 9 46 44 PM](https://user-images.githubusercontent.com/76544061/149862159-078d2712-e7f7-4876-8335-789edb347c12.png)
 
-  ## Step 4 : Set own domain using Route53
+  ## Step 4 : Set own domain using Route53 and request HTTPS certificate 
+  
+  ### Register domain : jihoonk1116-todoapp.link
+  
 ![Screen Shot 2022-01-17 at 9 53 06 PM](https://user-images.githubusercontent.com/76544061/149864869-ddd59d7e-bc5d-44f2-97c9-e4efec5d8493.png) <br>
   ![Screen Shot 2022-01-17 at 10 00 51 PM](https://user-images.githubusercontent.com/76544061/149864893-59b38b92-b132-4f81-ae22-33be39d57649.png)
+  
+  ### Create hosted zone
+  ![image](https://user-images.githubusercontent.com/76544061/150026285-e59052b1-91eb-490a-a329-3e675d914d54.png) <br>
+  ![image](https://user-images.githubusercontent.com/76544061/150026306-7097505b-4c0d-41b2-bb99-d90f218fbd54.png)
+
+
 
