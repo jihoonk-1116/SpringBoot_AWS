@@ -155,5 +155,8 @@
   ![image](https://user-images.githubusercontent.com/76544061/150026285-e59052b1-91eb-490a-a329-3e675d914d54.png) <br>
   ![image](https://user-images.githubusercontent.com/76544061/150026306-7097505b-4c0d-41b2-bb99-d90f218fbd54.png)
 
+  ### Create Record
+  <strong> Frontend : app.jihoonk1116-todoapp.link / Backend: api.jihoonk1116-todoapp.link </strong>
+  ![image](https://user-images.githubusercontent.com/76544061/150026718-739900fa-91b8-4f81-8f8f-2b014585cb9c.png)
 
 
